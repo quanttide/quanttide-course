@@ -10,3 +10,6 @@
 [submodule "assets/courses/big-data"]
 	path = assets/courses/big-data
 	url = https://github.com/quanttide/quanttide-course-of-big-data.git
+[submodule "docs/essay"]
+	path = docs/essay
+	url = https://github.com/quanttide/quanttide-essay-of-course-development.git
