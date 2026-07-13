@@ -22,3 +22,6 @@
 [submodule "assets/tutorials/vibe-coding"]
 	path = assets/tutorials/vibe-coding
 	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-coding.git
+[submodule "data/context"]
+	path = data/context
+	url = https://github.com/quanttide/quanttide-context-of-course-development.git
