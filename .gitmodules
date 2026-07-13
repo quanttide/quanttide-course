@@ -19,3 +19,6 @@
 [submodule "data/journal"]
 	path = data/journal
 	url = https://github.com/quanttide/quanttide-journal-of-course-development.git
+[submodule "assets/tutorials/vibe-coding"]
+	path = assets/tutorials/vibe-coding
+	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-coding.git
