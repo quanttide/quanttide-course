@@ -37,3 +37,6 @@
 [submodule "data/report"]
 	path = data/report
 	url = https://github.com/quanttide/quanttide-report-of-course-development.git
+[submodule "docs/handbook"]
+	path = docs/handbook
+	url = https://github.com/quanttide/quanttide-handbook-of-course-development.git
