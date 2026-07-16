@@ -40,3 +40,6 @@
 [submodule "docs/handbook"]
 	path = docs/handbook
 	url = https://github.com/quanttide/quanttide-handbook-of-course-development.git
+[submodule "data/insight"]
+	path = data/insight
+	url = https://github.com/quanttide/quanttide-insight-of-course-development.git
