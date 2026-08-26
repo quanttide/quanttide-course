@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## [Unreleased]
+
+### Changed
+- `apps/qtcloud-course`：provider 持久化从 SQLite 更换为对象存储（OSS）——解决 FC 无持久化问题（容器回收数据仍在）
+  - 新增 `OSSStore[T]`（internal/store/ossstore.go）：与 SQLiteStore 同接口（List/Get/Create/Update/Delete/NameExists/ListWhere/SetID），每表一个对象（programs.json 等全量实体列表），懒加载 + 写时全量覆盖原子写；对齐 qtcloud-crowd 的 OSS store 模式（aliyun SDK + QTCLOUD_OSS_* 配置前缀）
+  - 新增配置 `QTCLOUD_COURSE_STORE=oss|memory`（默认 memory 测试）；移除 SQLite（DB_PATH）分支与 modernc.org/sqlite 依赖
+  - seed/seed-catalog 同步迁移：`QTCLOUD_COURSE_STORE=oss` 写入 OSS（Dockerfile 启动时先 seed 再起服务），默认 local 本地文件验证
+  - 新增 OSS store 单测（mock OSS server，对齐 qtcloud-crowd oss_test）：CRUD/持久化/ListWhere/SetID/快照格式
+  - terraform：新增课程数据 OSS 桶 + FC 环境变量注入（QTCLOUD_COURSE_STORE/QTCLOUD_OSS_*）
+
+### Added
+- `apps/qtcloud-course`：验收标准模型（provider v0.1.1-alpha.2）
+  - Lesson/Scene 加 `Acceptance{criteria, method, on_fail}`（课时总验收 + 场景级每步判定，两层同构；Course 不加——课程完成 = 课时全过）
+
 ## [0.1.1] - 2026-07-14
 
 ### Added
