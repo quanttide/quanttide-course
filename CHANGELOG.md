@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- 移除临时的 `apps/qtcloud-learn` 子模块关联：学习云挂载以领域仓库（domains/quanttide-learn）为准，避免同仓多副本漂移
+
 ### Changed
 - `apps/qtcloud-course`：provider 持久化从 SQLite 更换为对象存储（OSS）——解决 FC 无持久化问题（容器回收数据仍在）
   - 新增 `OSSStore[T]`（internal/store/ossstore.go）：与 SQLiteStore 同接口（List/Get/Create/Update/Delete/NameExists/ListWhere/SetID），每表一个对象（programs.json 等全量实体列表），懒加载 + 写时全量覆盖原子写；对齐 qtcloud-crowd 的 OSS store 模式（aliyun SDK + QTCLOUD_OSS_* 配置前缀）
