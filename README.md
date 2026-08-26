@@ -9,6 +9,7 @@
 | `apps/qtcloud-course` | [qtcloud-course](https://github.com/quanttide/qtcloud-course) | 课程云应用 |
 | `packages/default` | [quanttide-course-toolkit](https://github.com/quanttide/quanttide-course-toolkit) | 课程开发工具包 |
 | `data/profile` | [quanttide-profile-of-course-development](https://github.com/quanttide/quanttide-profile-of-course-development) | 课程开发档案 |
+| `data/brochure` | [quanttide-brochure-of-course-development](https://github.com/quanttide/quanttide-brochure-of-course-development) | 课程研发宣传册 |
 | `assets/courses/big-data` | [quanttide-course-of-big-data](https://github.com/quanttide/quanttide-course-of-big-data) | 大数据课程素材 |
 | `docs/essay` | [quanttide-essay-of-course-development](https://github.com/quanttide/quanttide-essay-of-course-development) | 课程开发随笔 |
 

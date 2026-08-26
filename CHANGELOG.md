@@ -17,6 +17,7 @@
 - `data/context`：新增课程开发上下文子模块
 - `data/intention`：新增产品意图子模块
 - `data/journal`：新增开发日志子模块
+- `data/brochure`：新增课程研发宣传册子模块（quanttide-brochure-of-course-development）
 - `docs/tutorial`：新增 Vibe Coding 教程子模块
 - `examples/default`：新增课程开发实验室（Rust/Python/Go 模拟程序）
 - `data/profile/git/`：Git 课程蓝图（分布式 vs 集中式，2 课时）
