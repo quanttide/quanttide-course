@@ -45,7 +45,7 @@
 	url = https://github.com/quanttide/quanttide-insight-of-course-development.git
 [submodule "apps/qtclass"]
 	path = apps/qtclass
-	url = git@github.com:quanttide/qtclass.git
+	url = https://github.com/quanttide/qtclass.git
 [submodule "data/brochure"]
 	path = data/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-course-development.git
