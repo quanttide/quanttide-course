@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 实验室子模块改名：`examples/default` → `examples/quanttide-course-lab`（仓 quanttide-laboratory-of-course-development → quanttide-course-lab）
+
+
 - 移除临时的 `apps/qtcloud-learn` 子模块关联：学习云挂载以领域仓库（domains/quanttide-learn）为准，避免同仓多副本漂移
 
 ### Added
