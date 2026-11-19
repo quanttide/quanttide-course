@@ -49,3 +49,9 @@
 [submodule "data/brochure"]
 	path = data/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-course-development.git
+[submodule "assets/tutorials/vibe-working"]
+	path = assets/tutorials/vibe-working
+	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-working.git
+[submodule "assets/tutorials/vibe-creating"]
+	path = assets/tutorials/vibe-creating
+	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-creating.git
