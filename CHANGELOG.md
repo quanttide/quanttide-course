@@ -10,6 +10,7 @@
 - 移除临时的 `apps/qtcloud-learn` 子模块关联：学习云挂载以领域仓库（domains/quanttide-learn）为准，避免同仓多副本漂移
 
 ### Added
+- 注册子模块 `packages/quanttide-docs-toolkit`（quanttide-docs-toolkit，文档工程工具包，与 `domains/quanttide-docs` 同仓多挂载）
 - `data/profile/data-engineering/`：新增数据工程课程需求文档，包含课程背景、现状、需求要点及下一步工作规划
 
 ### Changed

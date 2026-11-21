@@ -55,3 +55,6 @@
 [submodule "assets/tutorials/vibe-creating"]
 	path = assets/tutorials/vibe-creating
 	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-creating.git
+[submodule "packages/quanttide-docs-toolkit"]
+	path = packages/quanttide-docs-toolkit
+	url = https://github.com/quanttide/quanttide-docs-toolkit.git
