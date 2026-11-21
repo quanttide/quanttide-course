@@ -7,6 +7,7 @@
 | 路径 | 仓库 | 说明 |
 |---|---|---|
 | `apps/qtcloud-course` | [qtcloud-course](https://github.com/quanttide/qtcloud-course) | 课程云应用 |
+| `apps/qtcloud` | [qtcloud](https://github.com/quanttide/qtcloud) | 量潮云门户与 lite |
 | `packages/default` | [quanttide-course-toolkit](https://github.com/quanttide/quanttide-course-toolkit) | 课程开发工具包 |
 | `packages/quanttide-docs-toolkit` | [quanttide-docs-toolkit](https://github.com/quanttide/quanttide-docs-toolkit) | 文档工程工具包 |
 | `data/profile` | [quanttide-profile-of-course-development](https://github.com/quanttide/quanttide-profile-of-course-development) | 课程开发档案 |
