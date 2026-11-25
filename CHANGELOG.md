@@ -4,6 +4,7 @@
 
 ### 变更
 
+- 移除子模块关联 `apps/qtclass`（quanttide/qtclass）：学员端不再挂在本域，课程未来先上架 `qtcloud-course-lite` 预览
 - 实验室子模块改名：`examples/default` → `examples/quanttide-course-lab`（仓 quanttide-laboratory-of-course-development → quanttide-course-lab）
 
 
